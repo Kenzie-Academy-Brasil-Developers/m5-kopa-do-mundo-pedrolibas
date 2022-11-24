@@ -8,4 +8,4 @@ class Team(models.Model):
     founded_at = models.DateField(null=True)
 
     def __repr__(self):
-        return f"[{self.id}] {self.name} - {self.fifa_code}"
+        return f"<[{self.id}] {self.name} - {self.fifa_code}>"
